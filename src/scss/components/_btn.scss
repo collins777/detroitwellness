@@ -1,0 +1,40 @@
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding: 15px;
+  border-radius: 50px;
+
+  &--blue {
+    border: 3px solid #222e77;
+    color: #222e77;
+
+    &--transparent {
+      background-color: transparent;
+      border: 3px solid #222e77;
+      color: #222e77;
+
+      &:hover {
+        color: #fff;
+        background-color: #222e77;
+      }
+    }
+  }
+
+  &--white {
+    border: 3px solid #fff;
+    color: #fff;
+
+    &--transparent {
+      background-color: transparent;
+      border: 3px solid #fff;
+      color: #fff;
+
+      &:hover {
+        color: transparent;
+        background-color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.rooms {
+  &--container {
+    width: 100%;
+    padding: 20vh 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  div {
+    width: 50%;
+    margin: 0 75px;
+  }
+}

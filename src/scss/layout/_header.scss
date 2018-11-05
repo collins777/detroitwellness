@@ -1,0 +1,17 @@
+.header {
+  &--hero {
+    height: 92vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("https://images.pexels.com/photos/267967/pexels-photo-267967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    @include fixedBackground();
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+
+    h1 {
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.nav {
+  &--container {
+    height: 7vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &--center {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  &--left,
+  &--right {
+    @include flexIt();
+  }
+
+  li {
+    list-style: none;
+    padding: 10px;
+  }
+}

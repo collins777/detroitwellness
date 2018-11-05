@@ -1,0 +1,209 @@
+.col--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.col {
+  width: 570px;
+  height: 700px;
+  margin: 25px auto;
+  -webkit-box-shadow: 0px 0px 7px 3px gray;
+  box-shadow: 0px 0px 7px 3px gray; }
+  .col--half-section {
+    width: inherit;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding: 15px;
+  border-radius: 50px; }
+  .btn--blue {
+    border: 3px solid #222e77;
+    color: #222e77; }
+    .btn--blue--transparent {
+      background-color: transparent;
+      border: 3px solid #222e77;
+      color: #222e77; }
+      .btn--blue--transparent:hover {
+        color: #fff;
+        background-color: #222e77; }
+  .btn--white {
+    border: 3px solid #fff;
+    color: #fff; }
+    .btn--white--transparent {
+      background-color: transparent;
+      border: 3px solid #fff;
+      color: #fff; }
+      .btn--white--transparent:hover {
+        color: transparent;
+        background-color: #fff; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h1 {
+  font-size: 7rem; }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 2rem; }
+
+p {
+  font-size: 1.3rem; }
+
+.nav--container {
+  height: 7vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.nav--center {
+  text-transform: uppercase;
+  font-size: 2rem; }
+
+.nav--left, .nav--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.nav li {
+  list-style: none;
+  padding: 10px; }
+
+.header--hero {
+  height: 92vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("https://images.pexels.com/photos/267967/pexels-photo-267967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/267967/pexels-photo-267967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #fff; }
+
+.retreats--container {
+  width: 100%;
+  padding: 20vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.retreats img {
+  width: 100%;
+  height: 100%; }
+
+.retreats--card {
+  width: 30%; }
+  .retreats--card__top, .retreats--card__bottom {
+    width: 100%;
+    height: 50%; }
+  .retreats--card__bottom {
+    font-size: 12px; }
+  .retreats--card .event-date {
+    font-weight: lighter; }
+
+.spa--container {
+  width: 100%;
+  padding: 30vh 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("https://images.pexels.com/photos/275851/pexels-photo-275851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/275851/pexels-photo-275851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.spa div {
+  color: #fff;
+  margin: 0 75px;
+  width: 50%; }
+
+.rooms--container {
+  width: 100%;
+  padding: 20vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.rooms div {
+  width: 50%;
+  margin: 0 75px; }
